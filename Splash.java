@@ -17,7 +17,7 @@ public class Splash{
 	// remove static later
 	public static void splashScreen(){
 		System.out.println(
-	      "     __      		       "
+	      "     __      		           "
 	    + "    |__|____ ___  _______       "   
 	    + "    |  \__  \\  \// //\__  \    "  
 	    + "    |  |// __ \\   //  // __ \_ "
