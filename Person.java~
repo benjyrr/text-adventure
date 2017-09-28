@@ -1,0 +1,41 @@
+/**
+Author: Benjy
+Last Modified: 9/28/17
+*/
+
+public class Person{
+	
+	// declare attributes of object
+	private String name;
+	private int age;
+	private String gender;
+	
+	//zero argument constructor
+	public Person(){
+		this.age = 1
+	}
+	
+	//loaded constructor
+	public person(String name, int age, String gender({
+	this.name = name;
+	this. age = age;
+	this.gender = gender;
+	}
+	
+	//getters and ssetters
+	
+	public String getName(){
+	return this.name
+	}
+	
+	public void setName(String name){
+	this.name = name;
+	}
+	
+	Person me = new Person("me", 28, "male");
+	
+	me.setName("Me");
+	
+	System.out.println("Name of person: " + me.getName());
+	
+}

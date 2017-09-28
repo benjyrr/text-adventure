@@ -1,6 +1,6 @@
 /*
 Author: Benjy R-R
-Last Modified 09/28/2017
+Last Modified 09/14/2017
 This class runs the start of the program.
 */
 
@@ -12,21 +12,11 @@ public class Runner{
 		//call splash object
 		Splash splash = new Splash();
 
+		
 		//call spash screen
 		splash.splashScreen();
 
 		//call splash screen 2
 		splash.splashScreen2();
-		
-		Person me = new Person("me", 28, "male");
-	
-		me.setName("Me");
-		me.setAge(28);
-		me.setGender("Male");
-	
-		System.out.println("Name of person: " + me.getName());
-		System.out.println("Age of person: " + me.getAge());
-		System.out.println("Gender of person: " + me.getGender());
-	
 	}
 }
