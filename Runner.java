@@ -26,7 +26,7 @@ public class Runner{
 	
 		System.out.println("Name of person: " + me.getName());
 		System.out.println("Age of person: " + me.getAge());
-		System.out.println("Gender of person: " + me.getGender());
+		System.out.println("Sex of person: " + me.getGender());
 	
 	}
 }
