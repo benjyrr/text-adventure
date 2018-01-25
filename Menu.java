@@ -16,7 +16,7 @@ public class Menu{
 		switch(option){
 		
 		case 1: 
-			System.out.println("You wake up in your cell. The guards let you out for roll call and then breakfast. Time to gather anything you can use to escape.");
+			System.out.println("You wake up in your cell. Time to head to breakfast and gather anything you can use to escape.");
 			break;
 			
 		case 2:

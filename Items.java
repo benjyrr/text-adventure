@@ -1,35 +1,30 @@
 public class Items{
 
 	//declare properties
+	private int value;
 
-private int value;
+	//zero-argument constructor - default values
+	public Items(){
+		this.value = 1;
 
-//constructor
-//zero-argument constructor - default values
+	}
+	//loaded constructor
+	public Items(int value){
+		this.value = value;
+	}
 
-public Items(){
-	this.value = 1;
+	//mutators - getters and setters of properties
+	public int getValue(){
+		return this.value;
+	}
 
-}
-//loaded constructor
-public Items(int value){
-	this.value = value;
-}
+	public void setValue(int value){
+		this.value = value;
+	}
 
-//mutators - getters and setters of properties
+	//toString method - prints out info about the object
+	public String toString(){
+		return "Value: " + this.value;
 
-public int getValue(){
-	return this.value;
-}
-
-public void setValue(int value){
-	this.value = value;
-}
-
-//toString method - prints out info about the object
-
-public String toString(){
-	return "Value: " + this.value;
-
-}
+	}
 }
