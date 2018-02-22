@@ -1,0 +1,7 @@
+Story:
+
+You wake up in a cold, dark, metal box. It's a jail! You don't want to be here; time to pick up a weapon you can use to escape. Will you choose a X or a Y?
+
+option
+
+You stuff the (blank) in your 

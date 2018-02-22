@@ -20,6 +20,10 @@ public class Runner{
 		
 		//loop through menu until user enters 2 (for quitting)
 		do{
+
+		Splash splash = new Splash();
+		splash.splashScreen();
+
 		//draw menu
 		menu.drawMenu();
 		
@@ -27,13 +31,18 @@ public class Runner{
 		option = input.nextInt();
 		menu.selection(option);
 		
-		}while(option != 2);
+		}
+
+		while(option != 2);
 		
 		//call splash object
 		Splash splash = new Splash();
 
 		//call spash screen
-		splash.splashScreen();
+		splash.splashScreen2();
 	
+		//while option (option != 1);
+		// get rid of splashscreen and menu here
+		//continue story
 	}
 }
