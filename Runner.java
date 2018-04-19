@@ -11,38 +11,25 @@ public class Runner{
 	//testing with main
 	public static void main(String[] args){
 	
-		//declare Menu object
-		Menu menu = new Menu();
-		
-		//set up user input
-		Scanner input = new Scanner(System.in);
+		//declare variables
+		Menu menu = new Menu();//declare Menu object
+		Scanner input = new Scanner(System.in);//set up user input
 		int option; //will hold user input for menu option
-		
-		//loop through menu until user enters 2 (for quitting)
-		do{
-
 		Splash splash = new Splash();
-		splash.splashScreen();
-
-		//draw menu
-		menu.drawMenu();
 		
-		//get user input
-		option = input.nextInt();
-		menu.selection(option);
-		
-		}
+			//display spalsh opening splash screen
+			splash.splashScreen();
 
-		while(option != 2);
-		
-		//call splash object
-		Splash splash = new Splash();
+			//draw menu
+			menu.drawMenu();
+			
+			//get user input
+			option = input.nextInt();
 
-		//call spash screen
-		splash.splashScreen2();
-	
-		//while option (option != 1);
-		// get rid of splashscreen and menu here
-		//continue story
+			//pick menu option
+			menu.selection(option);
+
+			//call Game Over spash screen
+			splash.splashScreen2();
 	}
 }
