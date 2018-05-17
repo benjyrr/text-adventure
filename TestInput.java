@@ -35,7 +35,7 @@ public class TestInput{
 		}
 		else{ //error message
 			System.out.println("Username must be at least 4 characters long \n"
-						  + "with at least 1 umber...");
+						  + "with at least 1 number...");
 		   }
 		   //check each in character in userName for a number
 		   for(int i = 0; i < userName.length(); i++){

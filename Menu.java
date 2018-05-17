@@ -22,13 +22,8 @@ public class Menu{
 			break;
 			
 		case 2:
-			//put option 2 here
+			//Quit
 			break;
-		default:
-			break;
-			
-			//put default here
-			
 		}
 	}
 
