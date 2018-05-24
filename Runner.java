@@ -35,6 +35,7 @@ public class Runner{
 			answer = input.next();
 
 			System.out.println("Your answer is correct.");
+			
 			//continues story
 			pause(13000);
 			
